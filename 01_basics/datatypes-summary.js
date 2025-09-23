@@ -8,7 +8,7 @@
 
 3 types : arrays , Functions , Objects*/
 
-let userEmail;  //will be undefined
+/*let userEmail;  //will be undefined
 const Id = Symbol('123')
 const anotherId = Symbol('123')
 
@@ -22,7 +22,7 @@ let myObj = {
 }
 const myFunction = function(){
     console.log("Hello World");
-}
+}*/
 /*Return type of variables in JavaScript
 1) Primitive Datatypes
        Number => number
@@ -38,4 +38,27 @@ const myFunction = function(){
        Function  =>  function
        Object  =>  object
 */
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// STACK MEMORY(primitive) , HEAP MEMORY(non-primitive)
+
+let myYoutubename = "Code-ki-charcha"
+let anotherName = myYoutubename ; //myYoutubename ke copy ko anotherName me copy kiya gya
+anotherName = "Coding-cubicles"  // and ye over-write kiya gya 
+
+console.log(myYoutubename) // prints Code-ki-charcha
+console.log(anotherName)   // prints Coding-cubicles
+
+let userOne = {
+    email: "userOne@google.com",
+    upi : "userOne@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Amiyush1029@google.com"
+
+console.log(userOne.email)  //prints Amiyush1029@google.com
+console.log(userTwo.email)  //prints Amiyush1029@google.com     
+//Heap memory me original bhi change ho jaata hai
 
