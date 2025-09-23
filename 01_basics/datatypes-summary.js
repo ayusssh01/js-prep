@@ -7,3 +7,35 @@
 # Non-primitive(Call by reference) 
 
 3 types : arrays , Functions , Objects*/
+
+let userEmail;  //will be undefined
+const Id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(Id == anotherId);
+console.log(userEmail)
+const bigNumber = 6489461891651564156n
+const heros = ["Shaktiman","Naagraj","doga"]
+let myObj = {
+    name : "Ayush Jha",
+    age : 22,
+}
+const myFunction = function(){
+    console.log("Hello World");
+}
+/*Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+*/
+
