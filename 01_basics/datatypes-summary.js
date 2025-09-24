@@ -1,4 +1,4 @@
-/*In Js datatypes are categorised into two types based on how the data is stored and accessed
+In Js datatypes are categorised into two types based on how the data is stored and accessed
 
 # Primitive(Call by value): esme jab bhi data copy hota hai, memory reference nhi diya jaata hai, balki iska copy diya jata hai and usme hi changes kiye jaate hain!!
 
@@ -8,7 +8,7 @@
 
 3 types : arrays , Functions , Objects*/
 
-/*let userEmail;  //will be undefined
+let userEmail;  //will be undefined
 const Id = Symbol('123')
 const anotherId = Symbol('123')
 
@@ -22,9 +22,9 @@ let myObj = {
 }
 const myFunction = function(){
     console.log("Hello World");
-}*/
-/*Return type of variables in JavaScript
-1) Primitive Datatypes
+}
+//Return type of variables in JavaScript
+/*1) Primitive Datatypes
        Number => number
        String  => string
        Boolean  => boolean
@@ -36,8 +36,8 @@ const myFunction = function(){
 2) Non-primitive Datatypes
        Arrays  =>  object
        Function  =>  function
-       Object  =>  object
-*/
+       Object  =>  object*/
+
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // STACK MEMORY(primitive) , HEAP MEMORY(non-primitive)
