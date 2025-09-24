@@ -1,4 +1,4 @@
-/*const score = 100
+const score = 100
 console.log(score)
 
 const balance = new Number(100)
