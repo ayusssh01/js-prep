@@ -1,4 +1,4 @@
-/*let score = "33abc"
+let score = "33abc"
 
 console.log(typeof score);
 console.log(typeof (score));
@@ -20,7 +20,7 @@ console.log(booleanIsLoggedIn);
 let someNumber = 33
 let stringConversion = String(someNumber)
 console.log(stringConversion);
-console.log(typeof stringConversion); */
+console.log(typeof stringConversion); 
 
 //////////////////////////////////////////OPERATIONS///////////////////////////////////////////////////////
 let value = 3
@@ -38,19 +38,23 @@ num1 = num2 = num3 = 2 + 2   //not recommended
 
 let counter = 100
 ++counter
-//console.log(counter)
-//Typescript doesn't allow to compare or use two datatypes together but js does
-//ALWAYS AVOID THESE TYPES OF CONVERSIONS
-//console.log(2+"3")   //unpredictable behaviour
-//console.log("2">1)  //not recommended
+console.log(counter)
 
-/*console.log(null > 0)
+
+
+/*Typescript doesn't allow to compare or use two datatypes together but js does
+ALWAYS AVOID THESE TYPES OF CONVERSIONS*/
+
+console.log(2+"3")   //unpredictable behaviour
+console.log("2">1)  //not recommended
+
+console.log(null > 0)
 console.log(null == 0)
 console.log(null >= 0)     //comparison and equality checks work differently in javascript
 
 console.log(undefined > 0)
 console.log(undefined < 0)
-console.log(undefined == 0)*/
+console.log(undefined == 0)
 
 console.log("2"===2)   //js === ke case me string ko convert nhi kr paata h no me but == me kr leta h
 
