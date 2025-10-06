@@ -1,4 +1,4 @@
-//Singleton --> jab constructor se object bnate h toh ye bnta h not when we declare it like literals
+//Singleton --> jab constructor se object bnate h toh ye nhi bnta h,when we declare it like literals
 //object literals
 // symbol ko object me keys ke roop me add kiya jaata hai, kind of weak encapsulation maana jaata h
 
