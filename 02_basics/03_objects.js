@@ -1,6 +1,5 @@
-//Singleton --> jab constructor se object bnate h toh ye nhi bnta h,when we declare it like literals
-//object literals
-// symbol ko object me keys ke roop me add kiya jaata hai, kind of weak encapsulation maana jaata h
+//Singleton --> jab constructor se object bnate h toh ye nhi bnta h,bnta h when we declare it like object literals
+// Symbol ko object me keys ke roop me add kiya jaata hai, kind of weak encapsulation maana jaata h
 
 
 const mySym = Symbol("key1");  //"key1" is just a description, not the key name in your object.
