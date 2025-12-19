@@ -1,4 +1,4 @@
-let score = "33abc"
+/*let score = "33abc"
 
 console.log(typeof score);
 console.log(typeof (score));
@@ -34,11 +34,11 @@ let str3 = str1 + str2
 
 let num1 , num2 , num3
 num1 = num2 = num3 = 2 + 2   //not recommended
-//console.table([num1,num2,num3])
+console.table([num1,num2,num3])
 
 let counter = 100
 ++counter
-console.log(counter)
+console.log(counter)*/
 
 
 
