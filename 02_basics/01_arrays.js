@@ -4,7 +4,7 @@
 (4) A deep copy of an object is a copy whose properties do not share the same references (point to the same underlying values) as those of the source object from which the copy was made. As a result, when you change either the source or the copy, you can be assured you're not causing the other object to change too. That behavior contrasts with the behavior of a shallow copy, in which changes to nested properties in the source or the copy may cause the other object to change too.*/
 
 const myArr = [1,2,3,4,5];
-console.log(myArr[0]);
+//console.log(myArr[0]);
 
 const myArr2 = new Array(1,2,3,4);  //this style of constructor array or Array object faces problem when there is a single element, it takes that single element as the size of the array!
 //console.log(myArr2[0]);
@@ -33,7 +33,7 @@ const myn1 = myArr.slice(1,3)  // brings out a sub-section of the array,doesn't 
 console.log(myn1)
 
 console.log("B ",myArr)
-const myn2 = myArr.splice(1,3) // brings out a sub-section of the array,includes last position element, removes spliced out elements permanently the original array.
+const myn2 = myArr.splice(1,3) // brings out a sub-section of the array,includes last position element, removes spliced out elements permanently from the original array.
 console.log(myn2)   //[ 2, 3, 4 ]
 console.log("C ",myArr)  //[1,5]
 
