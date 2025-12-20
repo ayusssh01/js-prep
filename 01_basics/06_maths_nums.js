@@ -33,7 +33,7 @@ const min = 10
 const max = 20
 
 console.log( Math.floor( Math.random () * ( max - min + 1 ) + min ) ) 
- //+MIN kiya in cases where >= min mandatory 
+ // +MIN kiya in cases where >= min mandatory 
  // (max - min + 1) when range is given, +1 to avoid zero case
 
 
