@@ -27,13 +27,13 @@ console.log(Math.max(5,6,7,8,3,2,4))
 
 console.log(Math.random())   //Always gives value between 0 and 1
 console.log((Math.random()*10)+1)  //*10 krne pe bhi kabhi kabhi 0 to 1 me reh jata esliye +1
-console.log(Math.floor(Math.random()*10)+1)
+console.log ( Math.floor ( Math.random () *10 ) + 1 )
 
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random()*(max - min + 1)+min)) 
- //+MIN kiya in cases where >=min mandatory 
- // (max - min + 1) when range is given,+1 to avoid zero case
+console.log( Math.floor( Math.random () * ( max - min + 1 ) + min ) ) 
+ //+MIN kiya in cases where >= min mandatory 
+ // (max - min + 1) when range is given, +1 to avoid zero case
 
 
