@@ -1,4 +1,4 @@
-const score = 100
+/*const score = 100
 console.log(score)
 
 const balance = new Number(100)
@@ -23,7 +23,7 @@ console.log(Math.ceil(5.3))
 console.log(Math.floor(5.3))
 
 console.log(Math.min(5,6,7,8,3,2,4))
-console.log(Math.max(5,6,7,8,3,2,4))
+console.log(Math.max(5,6,7,8,3,2,4))*/
 
 console.log(Math.random())   //Always gives value between 0 and 1
 console.log((Math.random()*10)+1)  //*10 krne pe bhi kabhi kabhi 0 to 1 me reh jata esliye +1
