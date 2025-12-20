@@ -3,11 +3,12 @@ const dc_heros = ["batman","Spiderman","Superman"]
 
 marvel_heros.push(dc_heros)
 console.log(marvel_heros) // array inside array //proves that array in js can take any data inside it
+//["Captain America","Ironman","Thor",["batman","Spiderman","Superman"]]
 console.log(marvel_heros[3])  // gives dc_heros in output
 console.log(marvel_heros[3][1]) //gives spiderman
 
 
-const allheros = marvel_heros.concat(dc_heros)   // psuh modifies the original array but concat doesn't, so it needs to be stored somewhere to see the impact of concat()
+const allheros = marvel_heros.concat(dc_heros)   // push modifies the original array but concat doesn't, so it needs to be stored somewhere to see the impact of concat()
 console.log(allheros); //added dc_heros element with the marvel_heros elements // properly merges
 
 const all_new_heros = [...marvel_heros,...dc_heros]  //Better than concat as it can merge more than two arrays   // we call it "spread" function
@@ -25,6 +26,11 @@ console.log(Array.from("Ayush"))    // converts any datatype array, breaking dow
 //returns [ 'A', 'y', 'u', 's', 'h' ]
 
 console.log(Array.from({name : "Ayush"})) // can't convert // read about it
+
+console.log(Array.from(Object.values({ name: "Ayush" }))) 
+console.log(Array.from(Object.keys({ name: "Ayush" })))
+
+
 
 let score1 = 100
 let score2 = 'C'

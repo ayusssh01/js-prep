@@ -11,7 +11,7 @@ const course = {
 //const {courseInstructor} = course 
 //console.log(courseInstructor); 
 const {courseInstructor : instructor} = course    // value kaha se nikalna hai  // instructor stuff is just new naamkaran which is optional
-console.log(instructor);    
+//console.log(instructor);    
 
 /*const navbar =  ({company}) => {  ///OBJECT DESTRUCTURING IN REACT
 }
