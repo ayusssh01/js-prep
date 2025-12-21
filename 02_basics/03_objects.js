@@ -3,7 +3,7 @@
 
 
 const mySym = Symbol("key1");  //"key1" is just a description, not the key name in your object.
-//It’s only used to make it easier to identify the Symbol when you log it.So "key1" = label/tag for the Symbol, not the property value. "myKey1" — the value stored in the object
+//It’s only used to make it easier to identify the Symbol when you log it. So "key1" = label/tag for the Symbol, not the property value. "myKey1" — the value stored in the object
 
 const jsUser = {   // we can define it with both keys & values and access the object through both too
     name : "Ayush", // But in array , we only define the value.
@@ -21,8 +21,8 @@ console.log(jsUser.email)   // generally people use but doesn't work always
 console.log(jsUser["email"]) 
 //console.log(jsUser.full name) // error here
 console.log(jsUser["full name"]) // this works
-//console.log(jsUser.mySym1) // gives correct output but wrong
-//console.log(typeof mySym1)  // string  // shows why its wrong
+//console.log(jsUser.mySym) // gives correct output but wrong
+//console.log(typeof mySym)  // string  // shows why its wrong
 
 console.log(jsUser[mySym]) //correct way to print
 console.log(typeof mySym)
@@ -41,7 +41,6 @@ jsUser.greeting = function(){
 }
 jsUser.greetingTwo = function(){
     console.log(`Hello js user , ${this.name}`)   //Current object jiske andar ye function chal raha hai(this.name  →  jsUser.name  →  "Ayush")
-
 }
 console.log(jsUser.greeting)  //[Function (anonymous)]
 console.log(jsUser.greeting()) 
